@@ -29,4 +29,8 @@ public class Degree extends BaseModel{
         courses.add(course);
         course.setDegree(this);
     }
+
+    public void deleteCourse(Course course){
+        courses.remove(course);
+    }
 }

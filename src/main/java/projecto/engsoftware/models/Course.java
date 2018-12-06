@@ -61,3 +61,4 @@ public class Course extends BaseModel{
         student.addCourse(this);
     }
 }
+
